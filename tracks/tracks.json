@@ -1,0 +1,27 @@
+[
+  {
+    "type": "track",
+    "track": {
+      "_key": "06g2f_bCbSsI",
+      "definition_id": "06g2f_bCbSsI",
+      "title": "Intake",
+      "key": "Intake",
+      "start_coordinates": {
+        "x": 170,
+        "y": 266
+      },
+      "end_coordinates": {
+        "x": 1568,
+        "y": 250
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T10:54:00.595Z"
+      },
+      "last_updated": {
+        "date": "2024-01-08T11:24:38.643Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "type": "dynamic_variable",
+    "dynamic_variable": {
+      "_key": "zbVlm4W4UFDK",
+      "definition_id": "zbVlm4W4UFDK",
+      "transformations": [],
+      "data_point_definition_id": "phq_2.PHQ2_SCORE",
+      "data_point_property": "value",
+      "fallback": "",
+      "label": "PHQ2",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:05:34.460Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:05:34.460Z"
+      }
+    }
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "type": "question",
+    "question": {
+      "_key": "GMG1sbdf8DWP",
+      "definition_id": "GMG1sbdf8DWP",
+      "form_definition_id": "dB709AWgwS4g",
+      "dataPointValueType": "number",
+      "questionType": "multiple_choice",
+      "userQuestionType": "multiple_choice",
+      "key": "PHQ2_Q01",
+      "title": "Over the last 2 weeks, how often have you been bothered by little interest or pleasure in doing things?",
+      "keyManuallyModified": true,
+      "options": [
+        {
+          "id": "cFHt9_Hmi43u",
+          "value": 0,
+          "label": "Not at all"
+        },
+        {
+          "id": "DSeaX2OOwQiq",
+          "value": 1,
+          "label": "Several days"
+        },
+        {
+          "id": "KLdQOC49Y0UN",
+          "value": 2,
+          "label": "More than half the days"
+        },
+        {
+          "id": "ARaG3OWp1_HU",
+          "value": 3,
+          "label": "Nearly every day"
+        }
+      ],
+      "questionConfig": {
+        "recode_enabled": false,
+        "mandatory": false,
+        "use_select": false
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:01:50.668Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:01:50.668Z"
+      }
+    }
+  },
+  {
+    "type": "question",
+    "question": {
+      "_key": "ycqKWadRbj3X",
+      "definition_id": "ycqKWadRbj3X",
+      "form_definition_id": "dB709AWgwS4g",
+      "dataPointValueType": "number",
+      "questionType": "multiple_choice",
+      "userQuestionType": "multiple_choice",
+      "key": "PHQ2_Q02",
+      "title": "Over the last 2 weeks, how often have you been bothered by feeling down, depressed, or hopeless?",
+      "keyManuallyModified": true,
+      "options": [
+        {
+          "id": "NPtB3gclVwuh",
+          "value": 0,
+          "label": "Not at all"
+        },
+        {
+          "id": "gq_g_UYjC3ie",
+          "value": 1,
+          "label": "Several days"
+        },
+        {
+          "id": "zj1OHTtkWfpF",
+          "value": 2,
+          "label": "More than half the days"
+        },
+        {
+          "id": "1b7lxnL7xsh6",
+          "value": 3,
+          "label": "Nearly every day"
+        }
+      ],
+      "questionConfig": {
+        "recode_enabled": false,
+        "mandatory": false,
+        "use_select": false
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:01:50.668Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:01:50.668Z"
+      }
+    }
+  },
+  {
+    "type": "question",
+    "question": {
+      "_key": "2u21f7XBogzm",
+      "definition_id": "2u21f7XBogzm",
+      "form_definition_id": "ua9we1Bdn6FJ",
+      "dataPointValueType": "boolean",
+      "questionType": "input",
+      "userQuestionType": "yes_no",
+      "key": "canWeCompleteTheTasks",
+      "title": "Can we complete the tasks?",
+      "options": [],
+      "questionConfig": {
+        "recode_enabled": false,
+        "mandatory": false
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:24:29.828Z"
+      },
+      "last_updated": {
+        "date": "2024-01-08T11:24:35.386Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  }
+]

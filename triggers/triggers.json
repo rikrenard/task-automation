@@ -1,0 +1,23 @@
+[
+  {
+    "type": "trigger",
+    "trigger": {
+      "_key": "LawodODDdCwe",
+      "definition_id": "LawodODDdCwe",
+      "pathway_id": "qLsaRSqPeL7l",
+      "target_id": "06g2f_bCbSsI",
+      "target_type": "track",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T10:54:00.676Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T10:54:00.704Z"
+      },
+      "settings": {
+        "type": "pathway_started"
+      }
+    }
+  }
+]

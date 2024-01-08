@@ -1,0 +1,116 @@
+[
+  {
+    "type": "step",
+    "step": {
+      "_key": "x9A3mHKYZPG7",
+      "type": "step",
+      "definition_id": "x9A3mHKYZPG7",
+      "title": "Intake",
+      "key": "Intake",
+      "label_definition_ids": [],
+      "action_definition_ids": [
+        "SppIjX8RELq5",
+        "bwEVG8AUyRZn",
+        "a2gKE6EJBHpr"
+      ],
+      "track_definition_id": "06g2f_bCbSsI",
+      "coordinates": {
+        "x": 368,
+        "y": 240
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T10:59:57.208Z"
+      },
+      "last_updated": {
+        "date": "2024-01-08T11:02:04.029Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "step",
+    "step": {
+      "_key": "5RWxV1EyTJ1z",
+      "type": "step",
+      "definition_id": "5RWxV1EyTJ1z",
+      "title": "Automate Tasks",
+      "key": "AutomateTasks",
+      "label_definition_ids": [],
+      "action_definition_ids": [
+        "BdwCTAYP1UEx",
+        "yfKK5Ne9oFpg",
+        "O8U0DKvUaWHs",
+        "UNLtFQ6iTpHx"
+      ],
+      "track_definition_id": "06g2f_bCbSsI",
+      "coordinates": {
+        "x": 752,
+        "y": 112
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:00:04.588Z"
+      },
+      "last_updated": {
+        "date": "2024-01-08T11:24:12.449Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "step",
+    "step": {
+      "_key": "owYRYUObn9F9",
+      "type": "step",
+      "definition_id": "owYRYUObn9F9",
+      "title": "Do nothing",
+      "key": "Donothing",
+      "label_definition_ids": [],
+      "action_definition_ids": [
+        "kysNYcwy2DXp"
+      ],
+      "track_definition_id": "06g2f_bCbSsI",
+      "coordinates": {
+        "x": 752,
+        "y": 368
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:00:06.639Z"
+      },
+      "last_updated": {
+        "date": "2024-01-08T11:03:14.720Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "step",
+    "step": {
+      "_key": "_J95NkOnpLGv",
+      "type": "step",
+      "definition_id": "_J95NkOnpLGv",
+      "title": "Complete Tasks",
+      "key": "CompleteTasks",
+      "label_definition_ids": [],
+      "action_definition_ids": [
+        "EI2z9NUrmee6",
+        "uFE1_WBAXiI3"
+      ],
+      "track_definition_id": "06g2f_bCbSsI",
+      "coordinates": {
+        "x": 1136,
+        "y": 112
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:21:20.718Z"
+      },
+      "last_updated": {
+        "date": "2024-01-08T11:24:56.052Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  }
+]

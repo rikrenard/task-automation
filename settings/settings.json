@@ -1,0 +1,112 @@
+[
+  {
+    "type": "settings",
+    "pathway_settings": {
+      "_key": "qLsaRSqPeL7l",
+      "definition_id": "qLsaRSqPeL7l",
+      "reminders": {
+        "amount": 0,
+        "delay": {
+          "amount": 1,
+          "unit": "day"
+        }
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T10:54:00.511Z"
+      },
+      "last_updated": {
+        "date": "2024-01-08T11:22:04.440Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "branding": {
+        "accent_color": "#ff0012",
+        "hosted_page_title": "Your Name Here",
+        "logo_url": "https://res.cloudinary.com/da7x4rzl4/image/upload/v1704711266/STAGING%20-%20Awell%20Studio%20-%20TextEditor%20-%20Image%20upload/dpkeksa1akg0fcxuql7o.jpg",
+        "hosted_page_auto_progress": true
+      },
+      "plugins": {
+        "elation": {
+          "auth_url": {
+            "id": "jI0GNVPXjeNB",
+            "label": "Authorization URL",
+            "obfuscated": false,
+            "value": "https://sandbox.elationemr.com/api/2.0/oauth2/token"
+          },
+          "base_url": {
+            "id": "ZhogXusfbWKm",
+            "label": "Base URL",
+            "obfuscated": false,
+            "value": "https://sandbox.elationemr.com/api/2.0"
+          },
+          "client_id": {
+            "id": "guwNrKFpjL4W",
+            "label": "Client ID",
+            "obfuscated": false,
+            "value": "Qq0oymgbCUJJeDE30zvAOCiZRnvDGWv5dx0vWW9t"
+          },
+          "client_secret": {
+            "id": "k0e4JQTBa4mg",
+            "label": "Client Secret",
+            "obfuscated": true,
+            "value": "U2FsdGVkX18+ZP+HxtxTrQfqBkKDw4+fFoY78DN73ZEcjKH2EDgjgmHYfTzUVlHhBL4zc2+eNRjpR3m+qsj/tDset7EU1SBo7QaWdfJd4M+M08PRYH7d0r4X9GAeleZk+HEKj/X6L+x2MshbLOn2xLqD4nfWgvhGZJnAn60wIwo="
+          },
+          "password": {
+            "id": "YQugmvU6yYni",
+            "label": "Password",
+            "obfuscated": true,
+            "value": "U2FsdGVkX18QKtNKP31d5yHm+ook3vE/pFtYW4z/dNo+KZvg+C0HYNOHuMp+1bEJYczXjzO5KMlDP/LtnN3RDw=="
+          },
+          "username": {
+            "id": "Lmkc6O96oMP6",
+            "label": "Username",
+            "obfuscated": false,
+            "value": "4069-563@api.elationemr.com"
+          }
+        },
+        "healthie": {
+          "apiKey": {
+            "id": "PqpmWFtMKX2u",
+            "label": "API key",
+            "obfuscated": true,
+            "value": "U2FsdGVkX1/tl5fS72SJ+anWsH/zhfpSRBVOSMJZoJRRulFeBzbsM/SGvwHce/yRpK2bRAYkeeeCDqDB2Uuix/8XEemyn6tcsZ+UkWjsSLxXUrJh7w5cnvZ5G8mE2dGV"
+          },
+          "apiUrl": {
+            "id": "xyufHw1MKBTX",
+            "label": "API url",
+            "obfuscated": false,
+            "value": "https://staging-api.gethealthie.com/graphql"
+          }
+        },
+        "zendesk": {
+          "salesApiToken": {
+            "id": "3Ja851BilfsL",
+            "label": "Sales API token",
+            "obfuscated": true,
+            "value": "U2FsdGVkX1/ncU4SxfyEMOTb+2vR4eouIkaum1i7JPoKmbHZSgWV6h4plqZ8Sh1Fb1zYvVbywu5yUcS4/SkpDgPnDV8rV9rOZPshRGAzkxTf9lBrH+h4jxCdCokhP08C"
+          }
+        },
+        "twilio": {
+          "accountSid": {
+            "label": "Account SID",
+            "value": "U2FsdGVkX1/oPUErbOoykUAw8biy0W9/XG47GfV/gEwNDpJK8ZBFSwKY3dgd6N8/9rlfD4v6dXmBnGS02Qkm3Q==",
+            "obfuscated": true,
+            "id": "OHsbv3IqFuF2"
+          },
+          "authToken": {
+            "label": "Auth token",
+            "value": "U2FsdGVkX19nYvc1t8rqG+s/Q6QcUxNiA7RGD3DkCWRau/D+a91Hke1+dwgcqQlqxTp+P46kRAB/qhwwVQJqQQ==",
+            "obfuscated": true,
+            "id": "jK76hG00DCa3"
+          },
+          "fromNumber": {
+            "label": "\"From\" number",
+            "value": "+13252402107",
+            "obfuscated": false,
+            "id": "6yyaVwoTzwLI"
+          }
+        }
+      }
+    }
+  }
+]

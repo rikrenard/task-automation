@@ -1,0 +1,104 @@
+[
+  {
+    "type": "label",
+    "label": {
+      "_key": "HqAtFExRpadP",
+      "definition_id": "HqAtFExRpadP",
+      "color": "blue",
+      "text": "",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T10:54:00.557Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T10:54:00.557Z"
+      }
+    }
+  },
+  {
+    "type": "label",
+    "label": {
+      "_key": "nliTy7i8Ro-o",
+      "definition_id": "nliTy7i8Ro-o",
+      "color": "teal",
+      "text": "",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T10:54:00.557Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T10:54:00.557Z"
+      }
+    }
+  },
+  {
+    "type": "label",
+    "label": {
+      "_key": "iXMXwZrrWQ6s",
+      "definition_id": "iXMXwZrrWQ6s",
+      "color": "green",
+      "text": "",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T10:54:00.557Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T10:54:00.557Z"
+      }
+    }
+  },
+  {
+    "type": "label",
+    "label": {
+      "_key": "EtxgLGjYzUJe",
+      "definition_id": "EtxgLGjYzUJe",
+      "color": "orange",
+      "text": "",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T10:54:00.557Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T10:54:00.557Z"
+      }
+    }
+  },
+  {
+    "type": "label",
+    "label": {
+      "_key": "XctipNMCpQYm",
+      "definition_id": "XctipNMCpQYm",
+      "color": "red",
+      "text": "",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T10:54:00.557Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T10:54:00.557Z"
+      }
+    }
+  },
+  {
+    "type": "label",
+    "label": {
+      "_key": "06v3Qac9sLiH",
+      "definition_id": "06v3Qac9sLiH",
+      "color": "purple",
+      "text": "",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T10:54:00.557Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T10:54:00.557Z"
+      }
+    }
+  }
+]

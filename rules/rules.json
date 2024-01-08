@@ -1,0 +1,121 @@
+[
+  {
+    "type": "rule",
+    "rule": {
+      "_key": "wyRPbD_UxtdC",
+      "definition_id": "wyRPbD_UxtdC",
+      "conditions": [],
+      "boolean_operator": "and",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:00:02.697Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:00:02.697Z"
+      }
+    }
+  },
+  {
+    "type": "rule",
+    "rule": {
+      "_key": "-kraPvbLRK3M",
+      "definition_id": "-kraPvbLRK3M",
+      "conditions": [
+        {
+          "id": "RccaKAiXGBHZ",
+          "operand": {
+            "type": "number",
+            "value": "3"
+          },
+          "operator": "is_greater_than_or_equal_to",
+          "reference": "phq_2.PHQ2_SCORE"
+        }
+      ],
+      "boolean_operator": "and",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:00:11.371Z"
+      },
+      "last_updated": {
+        "date": "2024-01-08T11:03:05.221Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "rule",
+    "rule": {
+      "_key": "bgUpfDuG70H1",
+      "definition_id": "bgUpfDuG70H1",
+      "conditions": [
+        {
+          "id": "PtmW-BL4AmNH",
+          "operand": null,
+          "operator": "is_less_than",
+          "reference": "phq_2.PHQ2_SCORE"
+        }
+      ],
+      "boolean_operator": "and",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:00:13.484Z"
+      },
+      "last_updated": {
+        "date": "2024-01-08T11:03:10.342Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "rule",
+    "rule": {
+      "_key": "ks1QwTjtAcK0",
+      "definition_id": "ks1QwTjtAcK0",
+      "conditions": [],
+      "boolean_operator": "and",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:00:19.931Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:00:19.931Z"
+      }
+    }
+  },
+  {
+    "type": "rule",
+    "rule": {
+      "_key": "EmGqYt1Df7Sa",
+      "definition_id": "EmGqYt1Df7Sa",
+      "conditions": [],
+      "boolean_operator": "and",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:21:22.611Z"
+      },
+      "last_updated": {
+        "date": "2024-01-08T11:23:28.662Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "rule",
+    "rule": {
+      "_key": "CharDU7HTPI2",
+      "definition_id": "CharDU7HTPI2",
+      "conditions": [],
+      "boolean_operator": "and",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:24:40.490Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:24:40.490Z"
+      }
+    }
+  }
+]

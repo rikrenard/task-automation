@@ -1,0 +1,96 @@
+[
+  {
+    "type": "timing",
+    "timing": {
+      "_key": "wco15zjwYqTo",
+      "definition_id": "wco15zjwYqTo",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:00:02.731Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:00:02.731Z"
+      }
+    }
+  },
+  {
+    "type": "timing",
+    "timing": {
+      "_key": "3_D-bs3xIdUU",
+      "definition_id": "3_D-bs3xIdUU",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:00:11.405Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:00:11.405Z"
+      }
+    }
+  },
+  {
+    "type": "timing",
+    "timing": {
+      "_key": "N4SATUTKwRNl",
+      "definition_id": "N4SATUTKwRNl",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:00:13.516Z"
+      },
+      "last_updated": {
+        "date": "2024-01-08T11:24:06.990Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "delay": {
+        "unit": "minute",
+        "amount": 1
+      }
+    }
+  },
+  {
+    "type": "timing",
+    "timing": {
+      "_key": "rwMeR1GAhDkL",
+      "definition_id": "rwMeR1GAhDkL",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:00:19.964Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:00:19.964Z"
+      }
+    }
+  },
+  {
+    "type": "timing",
+    "timing": {
+      "_key": "dL2UQqAjx0RJ",
+      "definition_id": "dL2UQqAjx0RJ",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:21:22.649Z"
+      },
+      "last_updated": {
+        "date": "2024-01-08T11:23:57.792Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "timing",
+    "timing": {
+      "_key": "NIxgr-5ttnK6",
+      "definition_id": "NIxgr-5ttnK6",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:24:40.520Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:24:40.520Z"
+      }
+    }
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "type": "pathway",
+    "pathway": {
+      "_key": "qLsaRSqPeL7l",
+      "definition_id": "qLsaRSqPeL7l",
+      "title": "Task Automation -  Demo",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T10:54:00.511Z"
+      },
+      "team_id": "kWWQXHkshiiGmkm071Ib2",
+      "last_updated": {
+        "date": "2024-01-08T11:25:04.565Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  }
+]

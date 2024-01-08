@@ -1,0 +1,46 @@
+[
+  {
+    "type": "message",
+    "message": {
+      "_key": "Yj-07lXZ4nCz",
+      "definition_id": "Yj-07lXZ4nCz",
+      "body": "[{\"type\":\"p\",\"children\":[{\"text\":\"Hi!\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"In this program, you will receive guidance and support from our dedicated team of healthcare professionals. Our goal is to help you understand your condition, make informed decisions about your health, and implement lifestyle changes that can positively impact your well-being.\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"To get started, we kindly ask you to complete your initial health assessment.\"}]}]",
+      "dynamic_variable_definition_ids": [],
+      "html_body": "<p class=\"slate-p\">Hi!</p><p class=\"slate-p\">In this program, you will receive guidance and support from our dedicated team of healthcare professionals. Our goal is to help you understand your condition, make informed decisions about your health, and implement lifestyle changes that can positively impact your well-being.</p><p class=\"slate-p\">To get started, we kindly ask you to complete your initial health assessment.</p>",
+      "attachments": null,
+      "format": "html",
+      "subject": "Welcome to Your Mental Health Program!",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:00:46.350Z"
+      },
+      "last_updated": {
+        "date": "2024-01-08T11:08:59.144Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "constant_ids": []
+    }
+  },
+  {
+    "type": "message",
+    "message": {
+      "_key": "K2rE6sCLOJL-",
+      "definition_id": "K2rE6sCLOJL-",
+      "body": "[{\"type\":\"p\",\"children\":[{\"text\":\"Sorry!\"}]}]",
+      "dynamic_variable_definition_ids": [],
+      "html_body": "<p class=\"slate-p\">Sorry!</p>",
+      "attachments": null,
+      "format": "html",
+      "subject": "This is the end of your care flow.",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:03:14.783Z"
+      },
+      "last_updated": {
+        "date": "2024-01-08T11:03:24.135Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "constant_ids": []
+    }
+  }
+]

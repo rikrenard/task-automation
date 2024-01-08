@@ -1,0 +1,490 @@
+[
+  {
+    "type": "action",
+    "action": {
+      "_key": "SppIjX8RELq5",
+      "definition_id": "SppIjX8RELq5",
+      "title": "Welcome",
+      "step_definition_id": "x9A3mHKYZPG7",
+      "stakeholder_definition_ids": [
+        "7f0KSxNUtMu_"
+      ],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:00:46.260Z"
+      },
+      "type": "message",
+      "last_updated": {
+        "date": "2024-01-08T11:02:25.770Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "message_definition_id": "Yj-07lXZ4nCz"
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "bwEVG8AUyRZn",
+      "definition_id": "bwEVG8AUyRZn",
+      "title": "PHQ-2",
+      "step_definition_id": "x9A3mHKYZPG7",
+      "stakeholder_definition_ids": [
+        "7f0KSxNUtMu_"
+      ],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:01:05.474Z"
+      },
+      "type": "form",
+      "last_updated": {
+        "date": "2024-01-08T11:02:21.639Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "form_definition_id": "dB709AWgwS4g",
+      "form_display_mode": "conversational"
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "a2gKE6EJBHpr",
+      "definition_id": "a2gKE6EJBHpr",
+      "title": "Calculate: PHQ-2",
+      "step_definition_id": "x9A3mHKYZPG7",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:02:03.994Z"
+      },
+      "type": "calculation",
+      "calculation_inputs": [
+        {
+          "calculation_input_id": "PHQ2_Q01",
+          "data_point_definition_id": "GMG1sbdf8DWP"
+        },
+        {
+          "calculation_input_id": "PHQ2_Q02",
+          "data_point_definition_id": "ycqKWadRbj3X"
+        }
+      ],
+      "last_updated": {
+        "date": "2024-01-08T11:02:35.293Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "calculation_definition_id": "phq_2"
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "BdwCTAYP1UEx",
+      "definition_id": "BdwCTAYP1UEx",
+      "title": "Create task",
+      "step_definition_id": "5RWxV1EyTJ1z",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:03:33.266Z"
+      },
+      "type": "plugin",
+      "plugin_key": "healthie",
+      "plugin_action_key": "createTask",
+      "plugin_fields": [
+        {
+          "description": "The ID of the patient related to this task.",
+          "id": "patientId",
+          "label": "Healthie patient ID",
+          "type": "string",
+          "value": "354665",
+          "options": {
+            "data_point_definition_ids": []
+          }
+        },
+        {
+          "id": "assignToUserId",
+          "label": "Assign to user",
+          "description": "The ID of the user to assign the task to. If none provided, will assign the task to the user the API key is associated with.",
+          "type": "string"
+        },
+        {
+          "description": "The content of the Task.",
+          "id": "content",
+          "label": "Content",
+          "options": {
+            "slate": "[{\"type\":\"p\",\"children\":[{\"text\":\"Patient has a PHQ2 of \"},{\"type\":\"dynamic-variable\",\"variableId\":\"zbVlm4W4UFDK\",\"value\":\"PHQ2\",\"children\":[{\"text\":\"{{{dynamic_variable:zbVlm4W4UFDK}}}\"}],\"status\":\"VALID\"},{\"text\":\", please reach out! \"}]}]",
+            "stakeholder_ids": [],
+            "dynamic_variable_ids": [
+              "zbVlm4W4UFDK"
+            ],
+            "constant_ids": []
+          },
+          "required": true,
+          "type": "text",
+          "value": "Patient has a PHQ2 of {{{dynamic_variable:zbVlm4W4UFDK}}}, please reach out! "
+        },
+        {
+          "id": "dueDate",
+          "label": "Due date",
+          "description": "The due date of the task.",
+          "type": "date"
+        },
+        {
+          "id": "isReminderEnabled",
+          "label": "Is reminder enabled",
+          "description": "Would you like to send reminders for this task?",
+          "type": "boolean"
+        },
+        {
+          "id": "reminderIntervalType",
+          "label": "Reminder interval type",
+          "description": "At what interval would you like to send reminders? The options are \"daily\", \"weekly\", \"once\".",
+          "type": "string"
+        },
+        {
+          "id": "reminderIntervalValue",
+          "label": "Reminder interval value (weekly)",
+          "description": "When interval type is set to \"daily\" or \"once\", leave this field blank. For \"weekly\" interval, send in comma separated all lower-case days of the week (e.g wednesday, friday).",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "reminderIntervalValueOnce",
+          "label": "Reminder interval value (once)",
+          "description": "When the interval type is set to \"daily\" or \"weekly\", leave this field blank. For \"once\" interval, set or select a date.",
+          "type": "date",
+          "required": false
+        },
+        {
+          "id": "reminderTime",
+          "label": "Reminder time",
+          "description": "Time to send the reminder. Expressed in the number of minutes from midnight.",
+          "type": "numeric"
+        }
+      ],
+      "extension_data_points": [
+        {
+          "key": "taskId",
+          "valueType": "string"
+        }
+      ],
+      "extension_data_point_mappings": [
+        {
+          "extension_data_point_key": "taskId",
+          "id": "vHbgXCeji85Z",
+          "data_point_definition_id": "ZeoIolXMhW7r"
+        }
+      ],
+      "last_updated": {
+        "date": "2024-01-08T11:23:22.852Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "yfKK5Ne9oFpg",
+      "definition_id": "yfKK5Ne9oFpg",
+      "title": "Create Non-Visit Note",
+      "step_definition_id": "5RWxV1EyTJ1z",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:05:53.910Z"
+      },
+      "type": "plugin",
+      "plugin_key": "elation",
+      "plugin_action_key": "createNonVisitNote",
+      "plugin_fields": [
+        {
+          "description": "",
+          "id": "patientId",
+          "label": "Patient ID",
+          "required": true,
+          "type": "numeric",
+          "value": "142146045083649",
+          "options": {
+            "data_point_definition_ids": []
+          }
+        },
+        {
+          "description": "The author of a note. Should be the ID of a User in Elation.",
+          "id": "authorId",
+          "label": "Author",
+          "required": true,
+          "type": "numeric",
+          "value": "4067",
+          "options": {
+            "data_point_definition_ids": []
+          }
+        },
+        {
+          "id": "category",
+          "label": "Category",
+          "description": "The Category of a note, defaults to \"Problem\". Read the extension documentation for the list of possible values.",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "tags",
+          "label": "Tags",
+          "description": "Comma-separated list of tags IDs",
+          "type": "string",
+          "required": false
+        },
+        {
+          "description": "Text of a note",
+          "id": "text",
+          "label": "Text",
+          "options": {
+            "slate": "[{\"type\":\"p\",\"children\":[{\"text\":\"Patient has a PHQ2 of \"},{\"type\":\"dynamic-variable\",\"variableId\":\"zbVlm4W4UFDK\",\"value\":\"PHQ2\",\"children\":[{\"text\":\"{{{dynamic_variable:zbVlm4W4UFDK}}}\"}],\"status\":\"VALID\"},{\"text\":\", please reach out\"}]}]",
+            "stakeholder_ids": [],
+            "dynamic_variable_ids": [
+              "zbVlm4W4UFDK"
+            ],
+            "constant_ids": []
+          },
+          "required": true,
+          "type": "text",
+          "value": "Patient has a PHQ2 of {{{dynamic_variable:zbVlm4W4UFDK}}}, please reach out"
+        }
+      ],
+      "extension_data_points": [
+        {
+          "key": "nonVisitNoteId",
+          "valueType": "number"
+        },
+        {
+          "key": "nonVisitNoteBulletId",
+          "valueType": "number"
+        }
+      ],
+      "extension_data_point_mappings": [],
+      "last_updated": {
+        "date": "2024-01-08T11:06:53.557Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "O8U0DKvUaWHs",
+      "definition_id": "O8U0DKvUaWHs",
+      "title": "Create task",
+      "step_definition_id": "5RWxV1EyTJ1z",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:20:36.330Z"
+      },
+      "type": "plugin",
+      "plugin_key": "zendesk",
+      "plugin_action_key": "createTask",
+      "plugin_fields": [
+        {
+          "description": "Content of the task.",
+          "id": "content",
+          "label": "Content",
+          "options": {
+            "data_point_definition_ids": []
+          },
+          "required": true,
+          "stringType": "text",
+          "type": "string",
+          "value": "Patient has PHQ2 of {{{dynamic_variable:zbVlm4W4UFDK}}}; please reach out."
+        },
+        {
+          "label": "Due date",
+          "id": "dueDate",
+          "type": "date",
+          "required": false,
+          "description": ""
+        },
+        {
+          "label": "Owner ID",
+          "id": "ownerId",
+          "type": "numeric",
+          "required": false,
+          "description": "Unique identifier of the user the task is assigned to, defaults to the user who created the task"
+        },
+        {
+          "label": "Resource type",
+          "id": "resourceType",
+          "type": "string",
+          "required": false,
+          "description": "Name of the resource type the task is attached to. Possible values: \"lead\", \"contact\", \"deal\"."
+        },
+        {
+          "label": "Resource ID",
+          "id": "resourceId",
+          "type": "numeric",
+          "required": false,
+          "description": "Unique identifier of the resource the task is attached to."
+        },
+        {
+          "label": "Completed?",
+          "id": "completed",
+          "type": "boolean",
+          "required": false,
+          "description": "Indicator of whether the task is completed or not."
+        },
+        {
+          "label": "Remind at",
+          "id": "remindAt",
+          "type": "date",
+          "required": false,
+          "description": "The date at which Zendesk should send you a reminder about the task."
+        }
+      ],
+      "extension_data_points": [
+        {
+          "key": "taskId",
+          "valueType": "number"
+        }
+      ],
+      "extension_data_point_mappings": [
+        {
+          "extension_data_point_key": "taskId",
+          "id": "1tXZWfsG1Bru",
+          "data_point_definition_id": "3PpmIU1EI9Bm"
+        }
+      ],
+      "last_updated": {
+        "date": "2024-01-08T11:24:51.199Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "UNLtFQ6iTpHx",
+      "definition_id": "UNLtFQ6iTpHx",
+      "title": "Form",
+      "step_definition_id": "5RWxV1EyTJ1z",
+      "stakeholder_definition_ids": [
+        "7f0KSxNUtMu_"
+      ],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:24:12.421Z"
+      },
+      "type": "form",
+      "last_updated": {
+        "date": "2024-01-08T11:24:27.821Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "form_definition_id": "ua9we1Bdn6FJ",
+      "form_display_mode": "conversational"
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "kysNYcwy2DXp",
+      "definition_id": "kysNYcwy2DXp",
+      "title": "Message",
+      "step_definition_id": "owYRYUObn9F9",
+      "stakeholder_definition_ids": [
+        "7f0KSxNUtMu_"
+      ],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:03:14.689Z"
+      },
+      "type": "message",
+      "last_updated": {
+        "date": "2024-01-08T11:03:17.539Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "message_definition_id": "K2rE6sCLOJL-"
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "EI2z9NUrmee6",
+      "definition_id": "EI2z9NUrmee6",
+      "title": "Complete task",
+      "step_definition_id": "_J95NkOnpLGv",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:23:04.841Z"
+      },
+      "type": "plugin",
+      "plugin_key": "healthie",
+      "plugin_action_key": "completeTask",
+      "plugin_fields": [
+        {
+          "description": "The id of the task in Healthie.",
+          "id": "id",
+          "label": "Task ID",
+          "required": true,
+          "type": "string",
+          "value": "{{data_point:ZeoIolXMhW7r}}",
+          "options": {
+            "data_point_definition_ids": [
+              "ZeoIolXMhW7r"
+            ]
+          }
+        }
+      ],
+      "extension_data_points": [],
+      "extension_data_point_mappings": [],
+      "last_updated": {
+        "date": "2024-01-08T11:25:04.565Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "uFE1_WBAXiI3",
+      "definition_id": "uFE1_WBAXiI3",
+      "title": "Complete a task",
+      "step_definition_id": "_J95NkOnpLGv",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T11:24:56.022Z"
+      },
+      "type": "plugin",
+      "plugin_key": "zendesk",
+      "plugin_action_key": "completeTask",
+      "plugin_fields": [
+        {
+          "description": "The ID of the task to complete in Zendesk",
+          "id": "taskId",
+          "label": "Task ID",
+          "required": true,
+          "type": "numeric",
+          "value": "{{data_point:3PpmIU1EI9Bm}}",
+          "options": {
+            "data_point_definition_ids": [
+              "3PpmIU1EI9Bm"
+            ]
+          }
+        }
+      ],
+      "extension_data_points": [],
+      "extension_data_point_mappings": [],
+      "last_updated": {
+        "date": "2024-01-08T11:25:00.186Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  }
+]
