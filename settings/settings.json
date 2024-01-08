@@ -16,7 +16,7 @@
         "date": "2024-01-08T10:54:00.511Z"
       },
       "last_updated": {
-        "date": "2024-01-08T11:22:04.440Z",
+        "date": "2024-01-08T11:28:24.320Z",
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       },
       "branding": {
@@ -78,32 +78,32 @@
             "value": "https://staging-api.gethealthie.com/graphql"
           }
         },
+        "twilio": {
+          "accountSid": {
+            "id": "OHsbv3IqFuF2",
+            "label": "Account SID",
+            "obfuscated": true,
+            "value": "U2FsdGVkX1/oPUErbOoykUAw8biy0W9/XG47GfV/gEwNDpJK8ZBFSwKY3dgd6N8/9rlfD4v6dXmBnGS02Qkm3Q=="
+          },
+          "authToken": {
+            "id": "jK76hG00DCa3",
+            "label": "Auth token",
+            "obfuscated": true,
+            "value": "U2FsdGVkX19nYvc1t8rqG+s/Q6QcUxNiA7RGD3DkCWRau/D+a91Hke1+dwgcqQlqxTp+P46kRAB/qhwwVQJqQQ=="
+          },
+          "fromNumber": {
+            "id": "6yyaVwoTzwLI",
+            "label": "\"From\" number",
+            "obfuscated": false,
+            "value": "+13252402107"
+          }
+        },
         "zendesk": {
           "salesApiToken": {
             "id": "3Ja851BilfsL",
             "label": "Sales API token",
             "obfuscated": true,
-            "value": "U2FsdGVkX1/ncU4SxfyEMOTb+2vR4eouIkaum1i7JPoKmbHZSgWV6h4plqZ8Sh1Fb1zYvVbywu5yUcS4/SkpDgPnDV8rV9rOZPshRGAzkxTf9lBrH+h4jxCdCokhP08C"
-          }
-        },
-        "twilio": {
-          "accountSid": {
-            "label": "Account SID",
-            "value": "U2FsdGVkX1/oPUErbOoykUAw8biy0W9/XG47GfV/gEwNDpJK8ZBFSwKY3dgd6N8/9rlfD4v6dXmBnGS02Qkm3Q==",
-            "obfuscated": true,
-            "id": "OHsbv3IqFuF2"
-          },
-          "authToken": {
-            "label": "Auth token",
-            "value": "U2FsdGVkX19nYvc1t8rqG+s/Q6QcUxNiA7RGD3DkCWRau/D+a91Hke1+dwgcqQlqxTp+P46kRAB/qhwwVQJqQQ==",
-            "obfuscated": true,
-            "id": "jK76hG00DCa3"
-          },
-          "fromNumber": {
-            "label": "\"From\" number",
-            "value": "+13252402107",
-            "obfuscated": false,
-            "id": "6yyaVwoTzwLI"
+            "value": "U2FsdGVkX1+A7QywyjgemmeS4x5DJlHIKFaUF/NWiKU/+8ecwPi4D5ssGzFK09qtqKbvCW6lpSj0yYhFoD6TioYIzktvenwrwmtCT/krhLSfKBYfMLVJfFh1s4zJtorU"
           }
         }
       }
